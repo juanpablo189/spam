@@ -12,7 +12,7 @@ from sklearn import metrics
 
 app = Flask(__name__)
 
-url_datos = 'https://raw.githubusercontent.com/Rodrigo-JM108/Datos_IA/master/datos_ml.csv'
+url_datos = 'https://raw.githubusercontent.com/juanpablo189/Datos/main/prueba.csv'
 dataset = pd.read_csv(url_datos)
 
 @app.route("/")
